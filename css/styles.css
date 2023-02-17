@@ -1,0 +1,12 @@
+header nav .btn:hover i {
+    color: #dc3545;
+}
+
+main .carousel {
+    max-height: 24rem;
+}
+
+main .carousel img {
+    max-height: 24rem;
+    object-fit: cover;
+}
