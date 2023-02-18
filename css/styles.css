@@ -10,3 +10,27 @@ main .carousel img {
     max-height: 24rem;
     object-fit: cover;
 }
+
+@media all and (min-width: 768px){
+    .single-card{
+        position: relative;
+        cursor: pointer;
+    }
+    .front, .back{
+        backface-visibility: hidden;
+        transition: all 1.5s cubic-bezier(0.7, -.5, 0.3, 1.8);
+    }
+    .front{
+        transform: rotateY(0deg);    
+    }
+    .single-card:hover .front{
+        transform: rotateY(180deg);
+    }
+    .single-card:hover .back{
+        transform: rotateY(0deg);
+    }
+    .back{
+        transform: rotateY(180deg);
+        position: absolute;
+    }
+}
