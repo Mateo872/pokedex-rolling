@@ -5,18 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Sobre Nosotros</title>
   </head>
   <body>
-    <header class="navbar navbar-expand-lg bg-body-tertiary">
-      <nav class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <header class="navbar navbar-expand-lg text-bg-danger">
+      <nav class="container">
+        <a class="navbar-brand text-light" href="../index.html">Pokedex</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -31,50 +35,169 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active text-light" aria-current="page" href="../index.html"
+                >Inicio</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
+
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle text-light opacity-50"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                Categorías
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="aboutUs.html">Sobre nosotros</a>
                 </li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
             <input
               class="form-control me-2"
               type="search"
-              placeholder="Search"
+              placeholder="Buscar un pokemon"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
-              Search
+            <button class="btn btn-outline-light text-light" type="submit">
+              <i class="bi bi-search"></i>
             </button>
           </form>
         </div>
       </nav>
     </header>
+    <main>
+      <section class="container">
+        <div class="row py-3 px-4 px-lg-1">
+          <h2 class="pt-3 text-center display-4 fw-semibold text-secondary">Nuestro Equipo</h2>
+            <div class="col-md-6">
+                <img class="img-fluid img-banner" src="../img/equipo.jpg" alt="Equipo Pokémon">
+            </div>
+            <div  class="col-md-6 d-flex align-items-center">
+                <p class="text-center fs-5">Somos un equipo dispuesto a mostrar todo nuestro poder, combinando las mejores habilidades de cada uno, para afrontar todos los desafíos que se nos presenten
+                   y jamás darse por vencidos.</p>
+            </div>
+        </div>
+        <div class="row row-cols-1 px-2 px-md-5 px-lg-0 pt-1 pb-5 mx-auto">
+          <div class="col-md-6 col-lg-3 px-sm-5 px-md-3 px-lg-1 mb-3 single-card">
+            <div class="card">
+              <div class="front h-100 w-100">
+                  <img src="../img/004.png" class="card-img-top" alt="Charmander">
+                  <div class="card-body">
+                      <p class="text-muted">N.001</p>
+                      <h5 class="card-title">Mateo Bellini</h5>
+                      <span class="badge text-bg-secondary rounded-4">Humano</span>
+                      <span class="badge text-bg-success rounded-4">Tierra</span>
+                  </div>
+              </div>
+              <div class="back h-100 w-100 bg-primary text-white p-3 rounded-1 d-none d-md-block">
+                  <p class="pt-3 fw-bold mb-1">Mateo Bellini</p>
+                  <hr class="mt-1">
+                  <div class="row">
+                      <p class="mb-1">Altura</p>
+                      <p>1,80 m</p>
+                      <p class="mb-1">Peso</p>
+                      <p>75 kg</p>
+                      <p class="mb-1">Habilidad</p>
+                      <p>Mar Llamas</p>
+                      <p class="mb-1">Actividad</p>
+                      <p>Navbar, footer y slider</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 px-sm-5 px-md-3 px-lg-1 mb-3 single-card">
+            <div class="card">
+              <div class="front h-100 w-100">
+                  <img src="../img/Squirtle.png" class="card-img-top" alt="Squirtle">
+                  <div class="card-body">
+                      <p class="text-muted">N.002</p>
+                      <h5 class="card-title">Sofia Delgado</h5>
+                      <span class="badge text-bg-secondary rounded-4">Humano</span>
+                      <span class="badge text-bg-success rounded-4">Tierra</span>
+                  </div>
+              </div>
+              <div class="back h-100 w-100 bg-primary text-white p-3 rounded-1 d-none d-md-block">
+                  <p class="pt-3 fw-bold mb-1">Sofia Delgado</p>
+                  <hr class="mt-1">
+                  <div class="row">
+                      <p class="mb-1">Altura</p>
+                      <p>1,65 m</p>
+                      <p class="mb-1">Peso</p>
+                      <p>85 kg</p>
+                      <p class="mb-1">Habilidad</p>
+                      <p>Torrente</p>
+                      <p class="mb-1">Actividad</p>
+                      <p>Detalle de Pokémon</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 px-sm-5 px-md-3 px-lg-1 mb-3 single-card">
+            <div class="card">
+              <div class="front h-100 w-100">
+                  <img src="../img/Mew.png" class="card-img-top" alt="Mew">
+                  <div class="card-body">
+                      <p class="text-muted">N.003</p>
+                      <h5 class="card-title">Ana Rocha</h5>
+                      <span class="badge text-bg-secondary rounded-4">Humano</span>
+                      <span class="badge text-bg-success rounded-4">Tierra</span>
+                  </div>
+              </div>
+              <div class="back h-100 w-100 bg-primary text-white p-3 rounded-1 d-none d-md-block">
+                  <p class="pt-3 fw-bold mb-1">Ana Rocha</p>
+                  <hr class="mt-1">
+                  <div class="row">
+                      <p class="mb-1">Altura</p>
+                      <p>1,5 m</p>
+                      <p class="mb-1">Peso</p>
+                      <p>45 kg</p>
+                      <p class="mb-1">Habilidad</p>
+                      <p>Sincronía</p>
+                      <p class="mb-1">Actividad</p>
+                      <p>Sobre Nosotros</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 px-sm-5 px-md-3 px-lg-1 mb-3 single-card">
+            <div class="card">
+              <div class="front h-100 w-100">
+                  <img src="../img/Pikachu.png" class="card-img-top" alt="Pikachu">
+                  <div class="card-body">
+                      <p class="text-muted">N.004</p>
+                      <h5 class="card-title">Exequiel Vega</h5>
+                      <span class="badge text-bg-secondary rounded-4">Humano</span>
+                      <span class="badge text-bg-success rounded-4">Tierra</span>
+                  </div>
+              </div>
+              <div class="back h-100 w-100 bg-primary text-white p-3 rounded-1 d-none d-md-block">
+                  <p class="pt-3 fw-bold mb-1">Exequiel Vega</p>
+                  <hr class="mt-1">
+                  <div class="row">
+                      <p class="mb-1">Altura</p>
+                      <p>1,77 m</p>
+                      <p class="mb-1">Peso</p>
+                      <p>85 kg</p>
+                      <p class="mb-1">Habilidad</p>
+                      <p>Pararrayos</p>
+                      <p class="mb-1">Actividad</p>
+                      <p>Cards de página principal</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <footer>
+      </section>
+    </main>
+
+    <footer class="text-bg-dark text-center py-3">
       <p>&copy; Todos los derechos reservados</p>
     </footer>
     <script
