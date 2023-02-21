@@ -34,3 +34,49 @@ main .carousel img {
         position: absolute;
     }
 }
+
+.background-color-plant {
+    background-color: #9bcc50;
+    color: #fff;
+  }
+  
+  .background-color-poison {
+    background-color: #b97fc9;
+    color: #fff;
+  }
+  
+  .background-color-fire {
+    
+    background-color: #fd7d24;
+    color: #fff;
+  }
+  
+  .background-color-flying {
+    background-color: #3dc7ef;
+    color: #212121;
+  }
+  
+  .background-color-water {
+    background-color: #4592c4;
+    color: #fff;
+  }
+  
+  
+  .background-color-psychic {
+    background-color: #e41081;
+    color: #fff;
+  }
+  
+  .background-color-ice{
+    background-color: #1c81df;
+    color: #fff;
+  }
+  .background-color-electric{
+    background-color: #d4e11a;
+    color: #fff;
+  }
+  .background-color-stone{
+    background-color: #a19119;
+    color: #fff;
+  }
+  
