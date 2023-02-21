@@ -5,19 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <link rel="icon" type="image/x-icon" href="../img/pokeball.jpg" />
-    <title>Document</title>
+    <title>Detalle Pokemon</title>
   </head>
   <body>
-    <header class="navbar navbar-expand-lg bg-body-tertiary">
-      <nav class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <header class="navbar navbar-expand-lg text-bg-danger">
+      <nav class="container">
+        <a class="navbar-brand text-light" href="../index.html">Pokedex</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -32,53 +36,161 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active text-light" aria-current="page" href="../index.html"
+                >Inicio</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
+
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle text-light opacity-50"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                Categorías
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="aboutUs.html">Sobre nosotros</a>
                 </li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
             <input
               class="form-control me-2"
               type="search"
-              placeholder="Search"
+              placeholder="Buscar un pokemon"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
-              Search
+            <button class="btn btn-outline-light text-light" type="submit">
+              <i class="bi bi-search"></i>
             </button>
           </form>
         </div>
       </nav>
     </header>
+    <!--Descripcion pokemon-->
+    <main class="bg-light">
+      <section class="container card my-3">
+        <article class="row m-2">
+          <h2 class="col-12 text-center mb-4">Bulbasaur N.° 001</h2>
+            <div class="col-sm-12 col-md-6">
+              <img
+                src="../img/001.png"
+                class="img-fluid rounded-start"
+                alt="bulbasaur"
+              />
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h5>
+                  Este Pokémon nace con una semilla en el lomo, que brota con
+                  el paso del tiempo.
+                </h5>                  
+              <div class="card text-bg-primary">
+              <div class="card-header col-12">Version</div>
+                <div class="row ms-2 mt-2">
+                  <p class="col-6">Altura</p>
+                  <p class="col-6">0.7 m</p>
+                  <p class="col-6">Categoria</p>
+                  <p class="col-6">Semilla</p>
+                  <p class="col-6">Peso</p>
+                  <p class="col-6">6,9 Kg</p>
+                  <p class="col-6">Habilidad</p>
+                  <p class="col-6">Espesura</p>
+                  <p class="col-6">Genero</p>
+                  <div class="col-6">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-gender-female"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-gender-male"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                </div>            
 
-    <footer>
-      <p>&copy; Todos los derechos reservados</p>
-    </footer>
-    <script
+                           
+                  <!--InfoPokemon-->
+                  <div class="my-3">
+                    <h5>Tipo</h5>
+                    <div>
+                      <span class="badge background-color-planta">Planta</span>
+                      <span class="badge background-color-veneno">Veneno</span>
+                    </div>
+                    <div class="my-3">
+                    <h5>Debilidad</h5>
+                      <span class="badge background-color-fuego">Fuego</span>
+                      <span class="badge background-color-agua">Agua</span>
+                      <span class="badge background-color-psiquico">Psiquico</span>
+                      <span class="badge background-color-hielo">Hielo</span>
+                      <span class="badge background-color-volador">Volador</span>
+                    </div>
+                  </div>
+              </div>
+            
+
+        </article>
+              
+              <article class="card bg-dark-subtle m-3">
+                <h4 class="card-title m-3">Evoluciones</h4>
+              <div class="card-group">
+                <div class="card bg-dark-subtle border-0 m-2">
+                  <img src="../img/001.png" class="card-img-top" alt="Bulbasaur">
+                  <div class="card-body">
+                    <h5 class="">N°001 - Bulbasaur</h5>
+                    <span class="badge background-color-planta">Planta</span>
+                    <span class="badge background-color-veneno">Veneno</span>
+                  </div>
+                </div>
+                <div class="card bg-dark-subtle border-0 m-2">
+                  <img src="../img/002.png" class="card-img-top" alt="Ivysaur">
+                  <div class="card-body">
+                    <h5 class="card-title ">N°002 - Ivysaur</h5>
+                    <span class="badge background-color-planta">Planta</span>
+                    <span class="badge background-color-veneno">Veneno</span>
+                  </div>
+                </div>
+                <div class="card bg-dark-subtle border-0 m-2">
+                  <img src="../img/003.png" class="card-img-top" alt="venusaur">
+                  <div class="card-body">
+                    <h5 class="card-title titulosDescripcion">N°003 - Venasaur</h5>
+                    <span class="badge background-color-planta">Planta</span>
+                    <span class="badge background-color-veneno">Veneno</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>       
+        </div>
+      </section>
+        </main>
+      <footer class="text-bg-dark text-center py-3">
+        <p>&copy; Todos los derechos reservados</p>
+      </footer>
+      <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
