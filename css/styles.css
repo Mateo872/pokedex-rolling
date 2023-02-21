@@ -36,45 +36,47 @@ main .carousel img {
 }
 
 .background-color-plant {
-  border-radius: 20px;
     background-color: #9bcc50;
     color: #fff;
   }
   
   .background-color-poison {
-    border-radius: 20px;
     background-color: #b97fc9;
     color: #fff;
   }
   
   .background-color-fire {
-    border-radius: 20px;
+    
     background-color: #fd7d24;
     color: #fff;
   }
   
   .background-color-flying {
-    border-radius: 20px;
     background-color: #3dc7ef;
     color: #212121;
   }
   
   .background-color-water {
-    border-radius: 20px;
     background-color: #4592c4;
     color: #fff;
   }
   
   
   .background-color-psychic {
-    border-radius: 20px;
     background-color: #e41081;
     color: #fff;
   }
   
   .background-color-ice{
-    border-radius: 20px;
     background-color: #1c81df;
+    color: #fff;
+  }
+  .background-color-electric{
+    background-color: #d4e11a;
+    color: #fff;
+  }
+  .background-color-stone{
+    background-color: #a19119;
     color: #fff;
   }
   
