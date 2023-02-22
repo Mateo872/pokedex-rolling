@@ -1,4 +1,4 @@
-# Proyecto [POKEDEX](...)
+# Proyecto [POKEDEX](https://pokedex-rolling.netlify.app/)
 
 Este proyecto es una página web que simula la "Pokedex"; una enciclopedia electrónica portátil que los entrenadores Pokemón llevan consigo para registrar automáticamente las fichas de todas las diversas especies Pokemón vistas y capturadas durante su viaje como entrenadores.​​
 
@@ -23,7 +23,7 @@ División de tareas:
 # Links
 
 * Github: [github.com/Mateo872/pokedex-rolling](https://github.com/Mateo872/pokedex-rolling) 
-* Demo: [github.com/Mateo872/pokedex-rolling](https://github.com/Mateo872/pokedex-rolling) 
+* Demo: [pokedex.com.ar](https://pokedex-rolling.netlify.app/) 
 
 # Bootstrap - Versión
 
