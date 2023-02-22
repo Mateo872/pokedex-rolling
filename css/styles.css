@@ -1,82 +1,87 @@
 header nav .btn:hover i {
-    color: #dc3545;
+  color: #dc3545;
 }
 
 main .carousel {
-    max-height: 24rem;
+  max-height: 24rem;
 }
 
 main .carousel img {
-    max-height: 24rem;
-    object-fit: cover;
+  max-height: 24rem;
+  object-fit: cover;
 }
 
-@media all and (min-width: 768px){
-    .single-card{
-        position: relative;
-        cursor: pointer;
-    }
-    .front, .back{
-        backface-visibility: hidden;
-        transition: all 1.5s cubic-bezier(0.7, -.5, 0.3, 1.8);
-    }
-    .front{
-        transform: rotateY(0deg);    
-    }
-    .single-card:hover .front{
-        transform: rotateY(180deg);
-    }
-    .single-card:hover .back{
-        transform: rotateY(0deg);
-    }
-    .back{
-        transform: rotateY(180deg);
-        position: absolute;
-    }
+.single-card {
+  position: relative;
+  cursor: pointer;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  transition: all 1.5s cubic-bezier(0.7, -.5, 0.3, 1.8);
+}
+
+.front {
+  transform: rotateY(0deg);
+}
+
+.single-card:hover .front {
+  transform: rotateY(180deg);
+}
+
+.single-card:hover .back {
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+  position: absolute;
 }
 
 .background-color-plant {
-    background-color: #9bcc50;
-    color: #fff;
-  }
-  
-  .background-color-poison {
-    background-color: #b97fc9;
-    color: #fff;
-  }
-  
-  .background-color-fire {
-    
-    background-color: #fd7d24;
-    color: #fff;
-  }
-  
-  .background-color-flying {
-    background-color: #3dc7ef;
-    color: #212121;
-  }
-  
-  .background-color-water {
-    background-color: #4592c4;
-    color: #fff;
-  }
-  
-  
-  .background-color-psychic {
-    background-color: #e41081;
-    color: #fff;
-  }
-  
-  .background-color-ice{
-    background-color: #1c81df;
-    color: #fff;
-  }
-  .background-color-electric{
-    background-color: #d4e11a;
-    color: #fff;
-  }
-  .background-color-stone{
-    background-color: #a19119;
-    color: #fff;
-  }
-  
+  background-color: #9bcc50;
+  color: #fff;
+}
+
+.background-color-poison {
+  background-color: #b97fc9;
+  color: #fff;
+}
+
+.background-color-fire {
+
+  background-color: #fd7d24;
+  color: #fff;
+}
+
+.background-color-flying {
+  background-color: #3dc7ef;
+  color: #212121;
+}
+
+.background-color-water {
+  background-color: #4592c4;
+  color: #fff;
+}
+
+
+.background-color-psychic {
+  background-color: #e41081;
+  color: #fff;
+}
+
+.background-color-ice {
+  background-color: #1c81df;
+  color: #fff;
+}
+
+.background-color-electric {
+  background-color: #d4e11a;
+  color: #fff;
+}
+
+.background-color-stone {
+  background-color: #a19119;
+  color: #fff;
+}
